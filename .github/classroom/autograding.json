@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "",
+      "run": "node task-1/main.js",
+      "input": "",
+      "output": "139",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 2",
+      "setup": "",
+      "run": "node task-2/main.js",
+      "input": "",
+      "output": "42",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Task 3",
+      "setup": "",
+      "run": "node task-3/main.js",
+      "input": "",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "node task-4/main.js",
+      "input": "",
+      "output": "32\r\n60",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}

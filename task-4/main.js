@@ -10,5 +10,6 @@ let figure = {
     }
   };
 
-  console.log(figure.area());
-  console.log(figure.perimeter());   
+  
+console.log(figure.perimeter());
+console.log(figure.area());

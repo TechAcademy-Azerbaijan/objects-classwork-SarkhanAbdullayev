@@ -10,6 +10,16 @@ let products = [
     {title:'Kiwi', weight: 7}
 ]
 
-let foods = ['Apple', 'Avocados', 'Cherry', 'Orange', 'Kiwi']
+let foods = ['Apple', 'Avocado', 'Cherry', 'Orange', 'Kiwi']
 
-// write code here
+let sum = 0
+
+for(let i = 0 ; i < products.length ; i++){
+    for(let el of foods){
+        if(products[i].title === el){
+            sum = sum + products[i].weight
+        }
+    }
+}
+
+console.log(sum);

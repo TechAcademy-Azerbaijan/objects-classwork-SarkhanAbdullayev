@@ -3,10 +3,10 @@ let figure = {
     length: 10,
     width: 6,
     area : function() {
-        // Write code here
+        return figure.length * figure.width;
     },
     perimeter: function(){
-        // Write code here
+        return figure.length*2 + figure.width*2;
     }
   };
 
